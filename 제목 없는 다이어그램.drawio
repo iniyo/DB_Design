@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:03:22.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="qaV3JfS6UCZq2ge53Gyb" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:05:28.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="uGCHzW6K5Z6wP0ZnGd2I" version="21.1.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="472" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -15,6 +15,24 @@
         </mxCell>
         <mxCell id="DKQK1CK6jxfivVF9IWAi-5" value="교수번호(PK)&lt;br&gt;주민등록번호&lt;br&gt;이름&lt;br&gt;주소&lt;br&gt;전화번호&lt;br&gt;직위&lt;br&gt;임용연도" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="DKQK1CK6jxfivVF9IWAi-4">
           <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DKQK1CK6jxfivVF9IWAi-6" value="학과" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-60" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DKQK1CK6jxfivVF9IWAi-7" value="학과번호(PK)&lt;br&gt;학과명&lt;br&gt;사무실번호&lt;br&gt;전화번호" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="DKQK1CK6jxfivVF9IWAi-6">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DKQK1CK6jxfivVF9IWAi-8" value="교과목" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DKQK1CK6jxfivVF9IWAi-9" value="교과목 번호(PK)&lt;br&gt;교과목 명&lt;br&gt;학과수" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="DKQK1CK6jxfivVF9IWAi-8">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DKQK1CK6jxfivVF9IWAi-10" value="강좌" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DKQK1CK6jxfivVF9IWAi-11" value="연도&lt;br&gt;학기&lt;br&gt;수강인원&lt;br&gt;강의실" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="DKQK1CK6jxfivVF9IWAi-10">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
